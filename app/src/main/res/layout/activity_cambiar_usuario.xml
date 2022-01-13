@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiarUsuario"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back1"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+    <EditText
+        android:id="@+id/txtUserR"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@drawable/ic_cuenta"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  USER"/>
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtPassR"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  PASWORD"
+        android:drawableLeft="@drawable/ic_pass"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtCPassR"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  CONFIRMAR PASWORD"
+        android:drawableLeft="@drawable/ic_pass"
+        />
+    <Button
+
+        android:id="@+id/btnR"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="REGISTRAR"
+        android:background="#000000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RV2"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+
+</RelativeLayout>

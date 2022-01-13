@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AGENDA DE YONY</string>
+    <string name="title_activity_home_i">HomeI</string>
+    <string name="tab_text_1">INICIO</string>
+    <string name="tab_text_2">AGENDA</string>
+    <string name="tab_text_3">Nada</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+android:background="@drawable/back"
+
+>
+
+<LinearLayout
+    android:layout_marginHorizontal="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+
+    <EditText
+        android:id="@+id/txtUserL"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@drawable/ic_cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  USER"/>
+
+    <EditText
+        android:id="@+id/txtPassL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="  PASWORD"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnL"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="INGRESAR"
+        android:background="@color/colorPrimary"
+
+/>
+
+</LinearLayout>
+
+
+</FrameLayout>

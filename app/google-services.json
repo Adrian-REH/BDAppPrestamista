@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "289841457635",
+    "firebase_url": "https://benjabd-e13bd.firebaseio.com",
+    "project_id": "benjabd-e13bd",
+    "storage_bucket": "benjabd-e13bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289841457635:android:c56b86102d8855e5",
+        "android_client_info": {
+          "package_name": "com.example.benjabd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289841457635-1f7kja66lq7g3e1juvrfv0lgpbp1bffi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0Zr5kwNr864Ehfe3x8M7LgG08PaaF14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289841457635-1f7kja66lq7g3e1juvrfv0lgpbp1bffi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

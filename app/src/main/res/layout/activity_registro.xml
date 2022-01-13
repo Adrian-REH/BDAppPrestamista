@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agenda.Registro"
+    android:background="@drawable/back1"
+    android:gravity="center|top"
+   >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+>
+       <ImageView
+           android:layout_marginTop="10dp"
+           android:id="@+id/A_image"
+     android:layout_marginHorizontal="100dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="160dp"
+           android:src="@drawable/ic_image"
+           />
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/edt_oldA"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="APELLIDO"
+        android:textColorHint="#FFFFFF"
+        />
+    <EditText
+        android:id="@+id/edt_nameA"
+        android:layout_width="150dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        />
+</LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:orientation="horizontal"
+           android:gravity="center|left">
+           <EditText
+               android:id="@+id/edt_telA"
+             android:layout_marginHorizontal="25dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="TELEFONO"
+               android:textColor="#FFFFFF"
+               android:textColorHint="#FFFFFF"
+               />
+
+       </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:orientation="horizontal"
+           android:gravity="center">
+           <EditText
+               android:textColor="#FFFFFF"
+               android:id="@+id/edt_FIA"
+               android:layout_width="150dp"
+               android:layout_marginHorizontal="10dp"
+               android:layout_height="wrap_content"
+               android:hint="FECHA INICIAL"
+               android:textColorHint="#FFFFFF"
+               />
+           <EditText
+               android:textColor="#FFFFFF"
+               android:id="@+id/edt_FFA"
+               android:layout_width="150dp"
+               android:layout_marginHorizontal="10dp"
+               android:layout_height="wrap_content"
+               android:hint="FECHA FINAL"
+               android:textColorHint="#FFFFFF"
+               />
+       </LinearLayout>
+ <LinearLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:orientation="horizontal"
+           android:gravity="center">
+     <EditText
+         android:textColor="#FFFFFF"
+         android:id="@+id/edt_MntIA"
+         android:layout_width="150dp"
+         android:layout_marginHorizontal="10dp"
+         android:layout_height="wrap_content"
+         android:hint="MONTO INICIAL"
+         android:textColorHint="#FFFFFF"
+         />
+     <EditText
+         android:textColor="#FFFFFF"
+         android:id="@+id/edt_MntFA"
+         android:layout_width="150dp"
+         android:layout_marginHorizontal="10dp"
+         android:layout_height="wrap_content"
+         android:hint="MONTO FINAL"
+         android:textColorHint="#FFFFFF"
+         />
+       </LinearLayout>
+
+
+       <Button
+           android:textStyle="bold"
+           android:textColor="#FFFFFF"
+           android:text="REGISTRAT"
+           android:id="@+id/btn_Registrar"
+           android:layout_marginTop="20dp"
+           android:layout_marginHorizontal="60dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#0099EC"
+           />
+   </LinearLayout>
+</RelativeLayout>

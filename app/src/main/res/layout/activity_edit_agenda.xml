@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agenda.EditAgenda"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/A_image"
+            android:layout_marginHorizontal="100dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_image"
+            />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/edt_oldE"
+                android:textColor="#FFFFFF"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="APELLIDO"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:textColor="#FFFFFF"
+                android:id="@+id/edt_nameE"
+                android:layout_width="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:hint="NOMBRE"
+                android:textColorHint="#FFFFFF"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+            <EditText
+                android:id="@+id/edt_telE"
+                android:textColor="#FFFFFF"
+                android:layout_marginHorizontal="25dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="TELEFONO"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_lmr"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/ic_phone"
+                android:adjustViewBounds="false"
+                android:elevation="0dp"
+/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:textColor="#FFFFFF"
+                android:id="@+id/edt_FIE"
+                android:layout_width="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:hint="FECHA INICIAL"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:textColor="#FFFFFF"
+                android:id="@+id/edt_FFE"
+                android:layout_width="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:hint="FECHA FINAL"
+                android:textColorHint="#FFFFFF"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:textColor="#FFFFFF"
+                android:id="@+id/edt_MntIE"
+                android:layout_width="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:hint="MONTO INICIAL"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:textColor="#FFFFFF"
+                android:id="@+id/edt_MntFE"
+                android:layout_width="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:hint="MONTO FINAL"
+                android:textColorHint="#FFFFFF"
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="EDITAR"
+            android:id="@+id/btn_Editar"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0099EC"
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="BORRAR"
+            android:id="@+id/btn_Borrar"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0099EC"
+            />
+    </LinearLayout>
+</RelativeLayout>
